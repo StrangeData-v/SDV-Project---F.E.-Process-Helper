@@ -14,7 +14,7 @@ This is a package used for engineering feature process, which could make it easi
 ['del_unique_col','del_none_col','find_mul_class_col','translate','none_values_description','one_hot_encoder','data_info_desc']
 ```
 
-#### Demonstration Sample: [example.ipyth](www.baidu.com)
+#### Demonstration Sample: [example.ipynb](https://github.com/StrangeData-v/SDV-Project---F.E.-Process-Helper/blob/master/example.ipynb)
 
 
 #### Functions Description:
