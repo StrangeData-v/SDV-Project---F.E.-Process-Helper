@@ -4,17 +4,22 @@
 This is a package used for engineering feature process, which could make it easier for recognizing and processing the original data. 
 
 ## COMPONENTS:
-#### `fea_eng` : Mainbody part of SDV package involved all funtions.
-#### `support` : Support functions of fea_eng.
+### `fea_eng` : Mainbody part of SDV package involved all funtions.
+### `support` : Support functions of fea_eng.
 
-### Functions:
-Function list:
+## Functions:
+### Function list:
 
 ```
 ['del_unique_col','del_none_col','find_mul_class_col','translate','none_values_description','one_hot_encoder','data_info_desc']
 ```
 
-|  ***No.*** |  Function Name | Describtion |
+### Demonstration Sample: [example.ipyth](www.baidu.com)
+
+
+### Functions Description:
+
+|  ***No.*** |  Function Name | Description |
 |---|---|---|
 |***1***|`del_unique_col(df)`|   delete columns those values are just a single one.    |
 |***2***|`del_none_col(df)`|   delete those columns whose none values number is bigger than threshold    |
@@ -23,3 +28,5 @@ Function list:
 |***5***|`none_values_description(df)`|   Count np.nan type values of dataframe and return by percentage    |
 |***6***|`one_hot_encoder(df)`|   return a processed dataframe.If encode_list(default blank list) is not appointed, the function will processing all the object features of input datafrme. If not, then just proceesing the encode_list givend    |
 |***7***|`data_info_desc(df)`|    A all-sided description of dataframe, which is just a colloction of SVD.fea_eng function.   |
+
+## Dcumen
