@@ -2,11 +2,13 @@
 `Sycain Vizerfur` `continuous updating`
 ## BRIEF INTRODUCTION:
 
-This is a package used for engineering feature process, which could make it easier for recognizing and processing the original data. 
+This is a package used for engineering feature process, which could make it easier for recognizing and processing the original data. (v2: add a nlp package named __lp__ provided some functions to process the nature language words.)
 
 ## COMPONENTS:
 #### `fea_eng` : Mainbody part of SDV package involved all funtions.
+#### `lp` : Support functions of nature language process.
 #### `support` : Support functions of fea_eng.
+
 
 ## Functions:
 #### Function list:
