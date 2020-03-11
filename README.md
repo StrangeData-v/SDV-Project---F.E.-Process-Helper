@@ -31,6 +31,8 @@ This is a package used for engineering feature process, which could make it easi
 |***7***|`data_info_desc(df)`|    A all-sided description of dataframe, which is just a colloction of SVD.fea_eng function.   |
 
 #### lp:
+|  ***No.*** |  Function Name | Description |
+|---|---|---|
 |***1***|`del_punctuation(text,language = 'english')`|   [input:string,output:list] input a long string and output a list without punctuation and /n(enter).Both operated amony Chinese and English.    --------args: language : 'english'(default) or 'chinese'    |
 |***2***|`stmmerized(word_list,language = 'english')`|   [input:list,output:list]  A stemmer extracts the root form of a given word. In a word, simplifing the decorated word.    --------args:language : 'english'(default) or 'chinese',if lanuage == 'chinese', then just return the original word_list  |
 |***3***|`del_stopwords(word_list)`|   just delete the stopwords from words list, and return a new list   |
