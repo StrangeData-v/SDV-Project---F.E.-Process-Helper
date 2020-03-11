@@ -14,7 +14,7 @@ This is a package used for engineering feature process, which could make it easi
 #### Function list:
 
 ```
-['del_unique_col','del_none_col','find_mul_class_col','translate','none_values_description','one_hot_encoder','data_info_desc']
+['del_unique_col','del_none_col','find_mul_class_col','translate','none_values_description','one_hot_encoder','data_info_desc']/['del_punctuation','stmmerized','del_stopwords','text_fully_process']
 ```
 
 #### Demonstration Sample: [example.ipynb](https://github.com/StrangeData-v/SDV-Project---F.E.-Process-Helper/blob/master/example.ipynb)
