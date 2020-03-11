@@ -19,7 +19,7 @@ This is a package used for engineering feature process, which could make it easi
 
 
 #### Functions Description:
-
+#### Fea_eng:
 |  ***No.*** |  Function Name | Description |
 |---|---|---|
 |***1***|`del_unique_col(df)`|   delete columns those values are just a single one.    |
@@ -29,3 +29,9 @@ This is a package used for engineering feature process, which could make it easi
 |***5***|`none_values_description(df,filter_ = False)`|   Count np.nan type values of dataframe and return by percentage    |
 |***6***|`one_hot_encoder(df,encode_list = [])`|   return a processed dataframe.If encode_list(default blank list) is not appointed, the function will processing all the object features of input datafrme. If not, then just proceesing the encode_list givend    |
 |***7***|`data_info_desc(df)`|    A all-sided description of dataframe, which is just a colloction of SVD.fea_eng function.   |
+
+#### lp:
+|***1***|`del_punctuation(text,language = 'english')`|   [input:string,output:list] input a long string and output a list without punctuation and /n(enter).Both operated amony Chinese and English.    --------args: language : 'english'(default) or 'chinese'    |
+|***2***|`stmmerized(word_list,language = 'english')`|   [input:list,output:list]  A stemmer extracts the root form of a given word. In a word, simplifing the decorated word.    --------args:language : 'english'(default) or 'chinese',if lanuage == 'chinese', then just return the original word_list  |
+|***3***|`del_stopwords(word_list)`|   just delete the stopwords from words list, and return a new list   |
+|***4***|`text_fully_process(text,language)`|     [input:string,output:list]  intergration of language processing. --------args:language : 'english'(default) or 'chinese'   |
